@@ -7,14 +7,26 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		8171A87723B16B2B000BA7DE /* ViewModelExpandable.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8171A87623B16B2B000BA7DE /* ViewModelExpandable.swift */; };
+		8171A87923B998BC000BA7DE /* MainView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8171A87823B998BB000BA7DE /* MainView.swift */; };
+		8171A87C23BAA00C000BA7DE /* CellAnimatable.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8171A87B23BAA00C000BA7DE /* CellAnimatable.swift */; };
+		8171A87E23BAA17B000BA7DE /* CellDataModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8171A87D23BAA17B000BA7DE /* CellDataModel.swift */; };
 		81E6DF0B237E006700BA31A6 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 81E6DF0A237E006700BA31A6 /* AppDelegate.swift */; };
 		81E6DF0D237E006700BA31A6 /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 81E6DF0C237E006700BA31A6 /* ViewController.swift */; };
 		81E6DF10237E006700BA31A6 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 81E6DF0E237E006700BA31A6 /* Main.storyboard */; };
 		81E6DF12237E006700BA31A6 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 81E6DF11237E006700BA31A6 /* Assets.xcassets */; };
 		81E6DF15237E006700BA31A6 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 81E6DF13237E006700BA31A6 /* LaunchScreen.storyboard */; };
+		81E6DF1D237E008900BA31A6 /* ExpandableCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = 81E6DF1C237E008900BA31A6 /* ExpandableCell.swift */; };
+		81E6DF1F237E022B00BA31A6 /* CellAnimation.swift in Sources */ = {isa = PBXBuildFile; fileRef = 81E6DF1E237E022B00BA31A6 /* CellAnimation.swift */; };
+		81E6DF212380A2F600BA31A6 /* VCViewModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = 81E6DF202380A2F600BA31A6 /* VCViewModel.swift */; };
+		81E6DF2323830C7700BA31A6 /* DefaultCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = 81E6DF2223830C7700BA31A6 /* DefaultCell.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
+		8171A87623B16B2B000BA7DE /* ViewModelExpandable.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewModelExpandable.swift; sourceTree = "<group>"; };
+		8171A87823B998BB000BA7DE /* MainView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MainView.swift; sourceTree = "<group>"; };
+		8171A87B23BAA00C000BA7DE /* CellAnimatable.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CellAnimatable.swift; sourceTree = "<group>"; };
+		8171A87D23BAA17B000BA7DE /* CellDataModel.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CellDataModel.swift; sourceTree = "<group>"; };
 		81E6DF07237E006700BA31A6 /* ExpandableCollectionViewCell.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = ExpandableCollectionViewCell.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		81E6DF0A237E006700BA31A6 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
 		81E6DF0C237E006700BA31A6 /* ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
@@ -22,6 +34,10 @@
 		81E6DF11237E006700BA31A6 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		81E6DF14237E006700BA31A6 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
 		81E6DF16237E006700BA31A6 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		81E6DF1C237E008900BA31A6 /* ExpandableCell.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ExpandableCell.swift; sourceTree = "<group>"; };
+		81E6DF1E237E022B00BA31A6 /* CellAnimation.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CellAnimation.swift; sourceTree = "<group>"; };
+		81E6DF202380A2F600BA31A6 /* VCViewModel.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = VCViewModel.swift; sourceTree = "<group>"; };
+		81E6DF2223830C7700BA31A6 /* DefaultCell.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = DefaultCell.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -35,6 +51,16 @@
 /* End PBXFrameworksBuildPhase section */
 
 /* Begin PBXGroup section */
+		8171A87A23BA9FDA000BA7DE /* Cell Animation */ = {
+			isa = PBXGroup;
+			children = (
+				81E6DF1E237E022B00BA31A6 /* CellAnimation.swift */,
+				8171A87B23BAA00C000BA7DE /* CellAnimatable.swift */,
+				8171A87D23BAA17B000BA7DE /* CellDataModel.swift */,
+			);
+			path = "Cell Animation";
+			sourceTree = "<group>";
+		};
 		81E6DEFE237E006700BA31A6 = {
 			isa = PBXGroup;
 			children = (
@@ -56,6 +82,12 @@
 			children = (
 				81E6DF0A237E006700BA31A6 /* AppDelegate.swift */,
 				81E6DF0C237E006700BA31A6 /* ViewController.swift */,
+				81E6DF202380A2F600BA31A6 /* VCViewModel.swift */,
+				8171A87823B998BB000BA7DE /* MainView.swift */,
+				81E6DF2223830C7700BA31A6 /* DefaultCell.swift */,
+				8171A87623B16B2B000BA7DE /* ViewModelExpandable.swift */,
+				81E6DF1C237E008900BA31A6 /* ExpandableCell.swift */,
+				8171A87A23BA9FDA000BA7DE /* Cell Animation */,
 				81E6DF0E237E006700BA31A6 /* Main.storyboard */,
 				81E6DF11237E006700BA31A6 /* Assets.xcassets */,
 				81E6DF13237E006700BA31A6 /* LaunchScreen.storyboard */,
@@ -136,7 +168,15 @@
 			buildActionMask = 2147483647;
 			files = (
 				81E6DF0D237E006700BA31A6 /* ViewController.swift in Sources */,
+				8171A87923B998BC000BA7DE /* MainView.swift in Sources */,
+				81E6DF2323830C7700BA31A6 /* DefaultCell.swift in Sources */,
+				8171A87E23BAA17B000BA7DE /* CellDataModel.swift in Sources */,
+				8171A87723B16B2B000BA7DE /* ViewModelExpandable.swift in Sources */,
 				81E6DF0B237E006700BA31A6 /* AppDelegate.swift in Sources */,
+				81E6DF212380A2F600BA31A6 /* VCViewModel.swift in Sources */,
+				81E6DF1F237E022B00BA31A6 /* CellAnimation.swift in Sources */,
+				8171A87C23BAA00C000BA7DE /* CellAnimatable.swift in Sources */,
+				81E6DF1D237E008900BA31A6 /* ExpandableCell.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
