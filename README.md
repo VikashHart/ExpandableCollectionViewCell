@@ -1,6 +1,7 @@
 # Expandable Collection View Cell
 
 Complete overhaul of the previous collapsible cell example
+
 Refined Collapsible Collection View Cell Example
 
 How to Programmatically create a collapsible collectionView cell.
